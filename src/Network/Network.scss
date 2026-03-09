@@ -118,16 +118,17 @@
         }
       }
       .response,
-      .data {
+      .data,
+      .payload-raw {
         user-select: text;
         @include overflow-auto(x);
         padding: $padding;
         font-size: $font-size-s;
-        margin: 10px 0;
+        // margin: 10px 0;
         white-space: pre-wrap;
-        border-top: 1px solid var(--border);
+        // border-top: 1px solid var(--border);
         color: var(--foreground);
-        border-bottom: 1px solid var(--border);
+        // border-bottom: 1px solid var(--border);
       }
     }
   }
