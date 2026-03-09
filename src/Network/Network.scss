@@ -57,6 +57,26 @@
     border-left: none;
     border-right: none;
   }
+  &.show-full-name {
+    .luna-data-grid {
+      .luna-data-grid-node {
+        td:first-child {
+          white-space: normal;
+          word-break: break-all;
+        }
+      }
+    }
+  }
+  &.show-complete-url {
+    .luna-data-grid {
+      .luna-data-grid-node {
+        td:first-child {
+          white-space: normal;
+          word-break: break-all;
+        }
+      }
+    }
+  }
   .detail {
     @include absolute();
     z-index: 10;
